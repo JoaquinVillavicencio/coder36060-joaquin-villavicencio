@@ -68,6 +68,9 @@
     grid-area: 3 / 2 / 4 / 4;
     border: 0px;
     max-width: 1000px;
+    animation-name: movimiento-1;
+    animation-delay: 1s;
+    animation-duration: 2s;
     
 }
 .imagen1 {
@@ -297,5 +300,13 @@ th, td {
     }
     .footerhome ul {
         font-size: 15px;
+    }
+}
+@keyframes movimiento-1 {
+    0% {
+        color: #dc4f4f;
+    }
+    100% {
+        color: #ffffff;
     }
 }
